@@ -14,7 +14,8 @@ This routine only converts the PTRAC file into a csv file which can be later loa
  
 	3) Load the csv text file in Paraview.
  
-	4) Use the filter "Table to Point" selecting the right variables for X, Y and Z. Remember to tick the "Mantain all variable" to be able to visualize also the ""scalar" field.
+	4) Use the filter "Table to Point" selecting the right variables for X, Y and Z. 
+	Remember to tick the "Mantain all variable" to be able to visualize also the ""scalar" field.
     
 	5) Plot the "Table to Point" in a 3D render
 
