@@ -7,10 +7,10 @@ This routine only converts the PTRAC file into a csv file which can be later loa
 
 ## Complete instructions
 1) Run MCNP with the following instruction or similar
-> PTRAC NPS=1,1e7 TYPE=P WRITE=pos FILE=asc EVENT=src MAX=1e5
+    > PTRAC NPS=1,1e7 TYPE=P WRITE=pos FILE=asc EVENT=src MAX=1e5
     
 2) Run the Python3.6 PTRAC_POS2CSV.py routine.
-> PTRAC_POS2CSV.py -i PTRAC_filename -o CSV_outputfilename
+    > PTRAC_POS2CSV.py -i PTRAC_filename -o CSV_outputfilename
  
 3) Load the csv text file in Paraview.
  
